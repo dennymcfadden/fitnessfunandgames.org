@@ -133,6 +133,16 @@
     		margin: 0px auto;
 			}
 
+		#location_photo {
+			float: left;
+			width: 250px;
+
+			height: 500px;
+    		margin: 0px auto;}
+		#location_details {
+			text-align: left;
+			margin-left: 300px;}
+
 
 		.btn {
   			-webkit-border-radius: 3;
