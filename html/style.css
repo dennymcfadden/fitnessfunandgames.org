@@ -70,68 +70,7 @@
 			text-transform:none;
 			text-decoration:underline;
 			}
-
-		#content {
-			height: 100%;
-			width: 100%;
-			margin-bottom: 100px;
-			text-align: center;
-			}
 			
-
-		#nav {
-			width: 800px;
-			height: 35px;
-			background-color: #FFFFFF;
-    		margin: 0px auto;
-			padding: 0px 50px 0px 50px;
-			}
-
-		#page {
-			width: 800px;
-			text-align: left;
-			background-color: #000000;
-    		margin: 0px auto;
-			padding: 50px;
-			}
-
-		#logo {
-			margin: 40px 175px 35px 175px;
-			}
-
-		#footer {
-			width: 100%;
-			height: 5px;
-			margin-top: 50px;
-			background-color: #fefb55;
-			}
-
-
-		#location_left {
-			float: left;
-			width: 250px;
-			height: 200px;
-    		margin: 0px auto;
-			}
-
-		#location_center {
-			width: 250px;
-			height: 200px;
-    		margin-left: 275px;
-    		margin-right: 275px;
-			}
-
-		#location_right {
-			float: right;
-			width: 250px;
-			height: 200px;
-    		margin: 0px auto;
-			}
-
-		#donate_button {
-			float: right;
-    		margin: 0px auto;
-			}
 
 
 		.btn {
