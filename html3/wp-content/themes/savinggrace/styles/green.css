@@ -1,0 +1,19 @@
+#logo, .donate-meter{
+	background: #2a2d26;
+	background: rgba(42, 45, 38, 0.9);
+} 
+#header-right, #sidebar {
+	background: #393b37;
+	background: rgba(57, 59, 55, 0.9);
+}
+#slides.slides .slide-content {
+	background:#33392d;
+	background: rgba(57, 59, 55, 0.3);
+}
+#slide-navigator {
+	background: #2a2d26;
+	background: rgba(42, 45, 38, 0.6);
+}
+#main {
+	background: #2a2d26;
+}
