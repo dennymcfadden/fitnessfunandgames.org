@@ -404,19 +404,23 @@ hr {
   text-align: center;
   }
 
-#nav {
-  width: 65.3333333333%;
-  background-color: #FFFFFF;
-  margin: 0px auto;
-  padding: 0px 50px 0px 50px;
-  }
 
 #page {
   width: 65.3333333333%;
   text-align: left;
   background-color: #000000;
   margin: 0px auto;
-  padding: 50px;
+  }
+
+.black-bg {
+  background-color: #000000;
+  padding: 2%;
+  text-align: left;
+  }
+
+.white-bg {
+  background-color: #FFFFFF;
+  margin: 0px auto;
   }
 
 .logo {
@@ -434,28 +438,6 @@ hr {
   height: 5px;
   margin-top: 50px;
   background-color: #fefb55;
-  }
-
-
-#location_left {
-  float: left;
-  width: 250px;
-  height: 200px;
-  margin: 0px auto;
-  }
-
-#location_center {
-  width: 250px;
-  height: 200px;
-  margin-left: 275px;
-  margin-right: 275px;
-  }
-
-#location_right {
-  float: right;
-  width: 250px;
-  height: 200px;
-  margin: 0px auto;
   }
 
 #donate_button {
