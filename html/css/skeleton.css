@@ -220,7 +220,7 @@ input[type="button"] {
   white-space: nowrap;
   background-color: #027694;
   border-radius: 4px;
-  border: 1px solid #fefb55;
+  border: 1px solid #027694;
   cursor: pointer;
   box-sizing: border-box; }
 .button:hover,
@@ -233,8 +233,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #000;
-  border-color: #fefb55;
+  background-color: #098FB2;
   outline: 0; }
 .button.button-fb,
 button.button-fb,
@@ -255,12 +254,8 @@ input[type="submit"].button-fb:focus,
 input[type="reset"].button-fb:focus,
 input[type="button"].button-fb:focus {
   color: #FFF;
-  background-color: #3b5998;
-  border-color: #3b5998; }
-
-.facebook{
-  background-color: #3b5998;
-  }
+  background-color: #4b6db5;
+  border-color: #4b6db5; }
 
 
 /* Forms
