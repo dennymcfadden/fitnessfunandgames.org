@@ -127,8 +127,6 @@ body {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   color: #000;
   background-color: #fefb55;
-  margin-bottom: 100px;
-  text-align: center;
   }
 
 
@@ -425,12 +423,6 @@ hr {
   background-color: #FFFFFF;
   margin: 0px auto;
   }
-
-.logo {
-  width: 48%;
-  height: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;}
 
 .footer {
   width: 100%;
