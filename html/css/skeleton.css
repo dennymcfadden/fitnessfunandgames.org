@@ -427,14 +427,10 @@ hr {
   }
 
 .logo {
-  width: 65.3333333333%;
+  width: 48%;
+  height: auto;
   margin-top: 50px;
   margin-bottom: 50px;}
-
-@media (min-width: 750px) {
-  .logo {
-  width: 30.6666666667%;}
-  }
 
 .footer {
   width: 100%;
