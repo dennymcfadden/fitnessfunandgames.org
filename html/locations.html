@@ -3,6 +3,21 @@
 <head>
   <title>Fitness Fun & Games</title>
   <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  <style type="text/css">
+   .google-maps {
+        position: relative;
+        padding-bottom: 65%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    	}
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    	}
+  </style>
 </head>
 
 <body>
@@ -24,7 +39,9 @@
 
   <div class="eight columns offset-by-two columns black-bg">
     <h1>Select a pin to find a location near you:</h1>
-    <iframe width="800" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?hl=en&amp;gl=us&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=214455996602179362147.000466487a5635000b96a&amp;t=m&amp;ll=39.328986,-76.608353&amp;spn=0.15934,0.547943&amp;z=11&amp;output=embed"></iframe>
+    <div class="google-maps">
+    	<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?hl=en&amp;gl=us&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=214455996602179362147.000466487a5635000b96a&amp;t=m&amp;ll=39.328986,-76.608353&amp;spn=0.15934,0.547943&amp;z=11&amp;output=embed"></iframe>
+	</div>
     <h1>Then, choose the location below for more information:</h1>
     <div class="row">
       <div class="four columns">
