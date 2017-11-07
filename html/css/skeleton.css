@@ -371,9 +371,9 @@ form {
   margin-bottom: 2.5rem; }
 
 .mb-m {
-  margin-bottom: 50px; }
+  margin-bottom: 5%; }
 .mt-m {
-  margin-top: 50px; }
+  margin-top: 5%; }
 .pl-m {
   padding-left: 10%; }
 .pr-m {
@@ -425,7 +425,7 @@ hr {
 
 .black-bg {
   background-color: #000000;
-  padding: 2%;
+  padding: 5%;
   text-align: left;
   }
 
