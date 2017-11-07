@@ -164,12 +164,13 @@ a:hover {
   color: #e6e6e6; }
 a.nav:link{
   font-weight: 600;
+  color: #000; 
   text-decoration:none;
   padding: 0px 25px 0px 25px;
   line-height: 2.2;
   }
 a.nav:visited{
-  color:#000000;
+  color:#000;
   }
 a.nav:hover{
   color:#6b6b6b;
