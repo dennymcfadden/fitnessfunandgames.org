@@ -33,7 +33,6 @@
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
   box-sizing: border-box; }
 .column,
 .columns {
@@ -164,10 +163,7 @@ a {
 a:hover {
   color: #e6e6e6; }
 a.nav:link{
-  color:#000;
-  font-size:16px;
   font-weight: 600;
-  text-transform:none;
   text-decoration:none;
   padding: 0px 25px 0px 25px;
   line-height: 2.2;
@@ -377,6 +373,14 @@ form {
   margin-bottom: 50px; }
 .mt-m {
   margin-top: 50px; }
+.pl-m {
+  padding-left: 10%; }
+.pr-m {
+  padding-right: 10%; }
+.pl-xs {
+  padding-left: 2%; }
+.pr-xs {
+  padding-right: 2%; }
 
 
 /* Utilities
