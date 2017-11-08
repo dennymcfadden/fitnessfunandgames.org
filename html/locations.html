@@ -1,30 +1,55 @@
 <html>
 
 <head>
-  <title>Fitness Fun & Games</title>
-  <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+  <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Fitness Fun &amp; Games</title>
+    <meta name="description" content="Licensed child care in Baltimore, Maryland.">
+  <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+  <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Maps Css -->
+    <style type="text/css">
+      .google-maps {
+        position: relative;
+        padding-bottom: 65%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+        }
+      .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+      	}
+  </style>
 </head>
 
 <body>
-  <div id="content">
+<div class="container">
 
   <div>
-    <a href="index.html"><img src="images/logo.svg" class="logo"/></a>
+    <a href="index.html"><img src="images/logo.svg" class="six columns offset-by-three columns mt-m mb-m pl-m pr-m"/></a>
   </div>
 
-  <div class="eight columns offset-by-two columns white-bg">
-    <a href="index.html" class="nav">Home</a>
-    <a href="locations.html" class="nav">Locations</a>
-    <a href="forms.html" class="nav">Forms</a>
-    <a href="contact.html" class="nav">Contact</a>
-    <a href="jobs.html" class="nav">Jobs</a>
-    <a href="donate.html" class="nav">Donate</a>
+  <div class="eight columns offset-by-two columns white-bg" style="text-align: center;">
+    <a href="index.html" class="nav pl-xs pr-xs">Home</a>
+    <a href="locations.html" class="nav pl-xs pr-xs">Locations</a>
+    <a href="forms.html" class="nav pl-xs pr-xs">Forms</a>
+    <a href="contact.html" class="nav pl-xs pr-xs">Contact</a>
+    <a href="jobs.html" class="nav pl-xs pr-xs">Jobs</a>
+    <a href="donate.html" class="nav pl-xs pr-xs">Donate</a>
   </div>
   
 
   <div class="eight columns offset-by-two columns black-bg">
-    <h1>Select a pin to find a location near you:</h1>
-    <iframe width="800" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?hl=en&amp;gl=us&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=214455996602179362147.000466487a5635000b96a&amp;t=m&amp;ll=39.328986,-76.608353&amp;spn=0.15934,0.547943&amp;z=11&amp;output=embed"></iframe>
+    <h1 >Select a pin to find a location near you:</h1>
+    <div class="google-maps mb-m">
+    	<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?hl=en&amp;gl=us&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=214455996602179362147.000466487a5635000b96a&amp;t=m&amp;ll=39.328986,-76.608353&amp;spn=0.15934,0.547943&amp;z=11&amp;output=embed"></iframe>
+	</div>
     <h1>Then, choose the location below for more information:</h1>
     <div class="row">
       <div class="four columns">
@@ -89,11 +114,7 @@
       </div>
     </div>   
   </div>
-    
-  <div id="footer"> 
-  </div>
 
-  </div>
-    
+</div>  
 </body>
 </html>
