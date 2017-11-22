@@ -29,11 +29,12 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
-  position: relative;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding-top: 50px;
+  }
 .column,
 .columns {
   width: 100%;
@@ -44,13 +45,15 @@
 @media (min-width: 400px) {
   .container {
     width: 85%;
-    padding: 0; }
+    padding-top: 80px;
+    }
 }
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
   .container {
-    width: 80%; }
+    width: 80%;
+    }
   .column,
   .columns {
     margin-left: 4%; }
@@ -162,19 +165,6 @@ a {
   color: #FFF; }
 a:hover {
   color: #e6e6e6; }
-a.nav:link{
-  font-weight: 600;
-  color: #000; 
-  text-decoration:none;
-  padding: 0px 25px 0px 25px;
-  line-height: 2.2;
-  }
-a.nav:visited{
-  color:#000;
-  }
-a.nav:hover{
-  color:#6b6b6b;
-  }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -314,8 +304,7 @@ ol ol,
 ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
-li {
-  margin-bottom: 1rem; }
+li {}
 
 
 /* Code
@@ -367,8 +356,7 @@ table,
 p,
 ul,
 ol,
-form {
-  margin-bottom: 2.5rem; }
+form {}
 
 .mb-m {
   margin-bottom: 5%; }
@@ -419,6 +407,92 @@ hr {
   clear: both; }
 
 
+/* Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#logo {
+  position: fixed;
+  top: 16px;
+  left: 20px;
+  width: 220px;
+  }
+
+nav {
+  display: block;
+  background-color: #FFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  }
+
+nav a {
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  }
+
+nav a:hover {
+  color:#6b6b6b;
+  }
+
+nav a:visited {
+  color:#000;
+  }
+
+nav ul {
+  text-align: right;
+  margin: 0;
+  padding: 13px;
+  }
+
+nav li {
+  display: inline-block;
+  color: #000;
+  list-style-type: none;
+  padding-right: 30px;
+  }
+
+#nav-btn{
+  display: none;
+}
+#mobile-nav{
+  display: none;
+}
+
+@media (max-width:768px) {
+  nav {
+    display: none;
+    height: 100%;
+    padding-top: 50px;
+    }
+  nav li {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    }
+  #nav-btn {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    }
+  #mobile-nav {
+    display: block;
+    background-color: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    }
+  } 
+
+
+
+
 /* Custom Classes
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -427,18 +501,6 @@ hr {
   background-color: #000000;
   padding: 5%;
   text-align: left;
-  }
-
-.white-bg {
-  background-color: #FFFFFF;
-  margin: 0px auto;
-  }
-
-.footer {
-  width: 100%;
-  height: 5px;
-  margin-top: 50px;
-  background-color: #fefb55;
   }
 
 

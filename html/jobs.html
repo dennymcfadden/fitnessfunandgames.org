@@ -2,33 +2,33 @@
 
 <head>
   <!-- Basic Page Needs -->
-    <meta charset="utf-8">
-    <title>Fitness Fun &amp; Games</title>
-    <meta name="description" content="Licensed child care in Baltimore, Maryland.">
+  <title>Fitness Fun &amp; Games</title>
+  <meta name="description" content="Licensed child care in Baltimore, Maryland.">
+  <meta charset="utf-8">
   <!-- CSS -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-<div class="container">
-
-  <div>
-    <a href="index.html"><img src="images/logo.svg" class="six columns offset-by-three columns mt-m mb-m pl-m pr-m"/></a>
-  </div>
-
-  <div class="eight columns offset-by-two columns white-bg" style="text-align: center;">
-    <a href="index.html" class="nav pl-xs pr-xs">Home</a>
-    <a href="locations.html" class="nav pl-xs pr-xs">Locations</a>
-    <a href="forms.html" class="nav pl-xs pr-xs">Forms</a>
-    <a href="contact.html" class="nav pl-xs pr-xs">Contact</a>
-    <a href="jobs.html" class="nav pl-xs pr-xs">Jobs</a>
-    <a href="donate.html" class="nav pl-xs pr-xs">Donate</a>
-  </div>
-
-  <div class="eight columns offset-by-two columns black-bg">
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="locations.html">Locations</a></li>
+      <li><a href="forms.html">Forms</a></li>
+      <li><a href="jobs.html">Jobs</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="donate.html">Donate</a></li>
+    </ul>
+  </nav>
+  <div id="mobile-nav"></div>
+  <a href="index.html"><img src="images/logo.svg" id="logo"/></a>
+  <i id="nav-btn" class="fa fa-bars" aria-hidden="true"></i>
+  <div class="container">
+    <div class="black-bg">
     <h1>Join the team at Fitness Fun & Games</h1>
     <p>We have lots of job openings currently available.<br>Please complete the following application to find a position that's right for you.</p>
     <a href="https://docs.google.com/forms/d/1N-XA-0ZlNRrWBRGC2gMk_Ich1Ub5k-IYOga99UJD-Z8/viewform" class="button">Complete Application</a>
@@ -41,7 +41,13 @@
     </p>
     <a href="mailto:hr@fitnessfunandgames.org" class="button">Email HR@FitnessFunAndGames.org</a>
   </div>
-    
-</div>  
+  <!-- jQuery -->
+  <script
+    src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"> 
+  </script> 
+  <!-- JS -->
+  <script src="js/main.js"></script> 
 </body>
 </html>
