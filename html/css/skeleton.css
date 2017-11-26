@@ -437,6 +437,14 @@ nav li {
   padding-top: 18px;
   }
 
+nav ul li.active a {
+  font-weight: 600;
+  }
+
+.active {
+  font-weight: 600;
+}
+
 #nav-btn{
   display: none;
 }
