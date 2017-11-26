@@ -5,4 +5,7 @@ $('#nav-btn').click(function()
   });
 
 // Adds .active class to <a> tags with current URL //
-$(document).activeNavigation("#nav")
+$(document).ready(function()
+  {
+    $(document).activeNavigation("nav")
+  });	
