@@ -209,13 +209,13 @@
   }
 }
 .container {
-  margin-right: auto;
-  margin-left: auto;
+  margin: 60px auto auto auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 @media (min-width: 768px) {
   .container {
+    margin: 90px auto 60px auto;
     width: 750px;
   }
 }
