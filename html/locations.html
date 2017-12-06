@@ -1,5 +1,5 @@
+<!DOCTYPE html>
 <html>
-
 <head>
   <!-- Basic Page Needs -->
   <title>Fitness Fun &amp; Games</title>
@@ -8,7 +8,8 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/grid12.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Google Maps CSS -->
@@ -20,13 +21,13 @@
 <body>
   <div id="nav-placeholder"></div>
   <main class="container">
-    <section class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2 bg-black u-pb30">
-      <div>
-        <h1>Find a location near you</h1>
-        <div class="google-maps u-w100 u-pt15 u-pb15">
+    <div class="row justify-content-center">
+      <div class="col-xs-12 col-sm-10 col-lg-8 bg-black u-pb30 animated fadeInUp">
+        <h2>Find a location near you</h2>
+        <div class="google-maps">
     	    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?hl=en&amp;gl=us&amp;ie=UTF8&amp;oe=UTF8&amp;msa=0&amp;msid=214455996602179362147.000466487a5635000b96a&amp;t=m&amp;ll=39.328986,-76.608353&amp;spn=0.15934,0.547943&amp;z=11&amp;output=embed"></iframe>
 	      </div>
-        <h1>Select a location for more information</h1>
+        <h2>Select a location for more information</h2>
         <div class="row">
           <div class="col-xs-12 col-sm-4">
             <a href="bethesda.html"><img border="0" src="images/beth.jpg" class="u-w100"></a>
@@ -82,7 +83,7 @@
           </div>
         </div>
       </div>
-    </section>  
+    </div>  
   </main>
   <!-- jQuery -->
   <script
