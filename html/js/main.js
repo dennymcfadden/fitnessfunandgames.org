@@ -7,16 +7,16 @@ $("#nav-placeholder").load("nav.html", function() {
     {
     $('nav').slideToggle();
     });
-});
 
-
-// When user resizes the window
-$(window).resize(function(){
-   // Get the width of the page
-   var width = $(window).width();
-   // If width > breakpoint and nav is hidden
-   if(width > 768 && nav.is(':hidden')) {
+  // When user resizes the window
+  $(window).resize(function(){
+    // Get the width of the page
+    var width = $(window).width();
+    // If width > breakpoint and nav is hidden
+    if(width > 768 && nav.is(':hidden')) {
       // Change display property to empty
       nav.css('display','');
    }
+});
+
 });
