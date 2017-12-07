@@ -57,54 +57,11 @@ a:hover {
 /* ------------ Buttons ------------ */
 
 
-.btn-primary,
-input[type="button"] {
+.button {
   background-color: #027694;
   border-radius: 4px;
-  border: 1px solid #027694;
   box-sizing: border-box;
   color: #FFF;
-  cursor: pointer;  
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 600;  
-  height: 38px;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  padding: 0 15px;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.btn-primary:hover, input[type="button"]:hover {
-  background-color: #098FB2;
-  outline: 0;
-}
-
-.facebook { 
-  background-color: #3b5998;
-  border-color: #3b5998;
-  color: #FFF;
-}
-
-.facebook:hover, .facebook:focus {
-  background-color: #4b6db5;
-  border-color: #4b6db5;
-  color: #FFF;
-}
-
-.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  background-color: #027694;
-  border-radius: 4px;
-  border: 1px solid #027694;
-  box-sizing: border-box;
-  color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
   font-size: 11px;
@@ -120,39 +77,16 @@ input[type="button"] {
   white-space: nowrap;
 }
 
-.button:hover, button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:focus, button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
+.button:hover, .button:focus {
   background-color: #098FB2;
-  outline: 0;
 }
 
-.button.button-fb,
-button.button-fb,
-input[type="submit"].button-fb,
-input[type="reset"].button-fb,
-input[type="button"].button-fb {
+.facebook { 
   background-color: #3b5998;
-  border-color: #3b5998;
-  color: #FFF;
 }
 
-.button.button-fb:hover, button.button-fb:hover,
-input[type="submit"].button-fb:hover,
-input[type="reset"].button-fb:hover,
-input[type="button"].button-fb:hover,
-.button.button-fb:focus, button.button-fb:focus,
-input[type="submit"].button-fb:focus,
-input[type="reset"].button-fb:focus,
-input[type="button"].button-fb:focus {
+.facebook:hover, .facebook:focus {
   background-color: #4b6db5;
-  border-color: #4b6db5;
-  color: #FFF;
 }
 
 
@@ -301,12 +235,3 @@ nav a:visited {
     width: 100%;
   }
 } 
-
-
-/* ------------ Footer ------------ */
-
-
-#footer {
-  background-color: #FFF;
-  height: 60px;
-}
