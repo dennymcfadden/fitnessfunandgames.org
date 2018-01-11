@@ -1,12 +1,12 @@
 
-// Replaces #nav-placeholder with nav.html //
+// Replaces #nav-placeholder with nav.html
 $("#nav-placeholder").load("nav.html", function() {
-	// Adds .active class to <a> tags with current URL //
+	// Adds .active class to <a> tags with current URL
 	$(document).activeNavigation("nav");
 
   const nav = $('nav');
 
-	// Toggles visibility of 'nav' on click of 'nav-btn' //
+	// Toggles visibility of 'nav' on click of 'nav-btn'
 	$('#nav-btn').click(function() {
     nav.slideToggle();
   });
